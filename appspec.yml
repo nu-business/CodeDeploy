@@ -3,6 +3,9 @@ os: linux
 files:
   - source: /index.html
     destination: /var/www/html/
+files:
+  - source: /img
+    destination: /var/www/html/img
 hooks:
   BeforeInstall:
     - location: deploy/before_install
